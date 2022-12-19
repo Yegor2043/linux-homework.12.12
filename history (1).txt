@@ -1,0 +1,11 @@
+   0 mkdir -p /home/user/start && touch /home/user/start/1.txt
+   1 echo "Start" > 1.txt
+   2 date >> 1.txt
+   3 mkdir /opt/task && touch /opt/task/start.txt
+   4 cp 1.txt start.txt
+   5 cat bench.py | tail -4 >> start.txt
+   6 cat hello.c  | tail -4 >> start.txt
+   7 cat hello.js  | tail -4 >> start.txt
+   8 cat readme.txt  | tail -4 >> start.txt
+   9 cat start.txt
+  10 history > history.txt
